@@ -1,13 +1,12 @@
 .cookiePolicy {
-    display: none !important;
-  }
-  .tawk-min-container {
-    display: none !important;
-  }
-  .ftLinkler {
-    display: none !important;
-  }
-  .mobilBasvuru{
-    display:none !important;
+  display: none !important;
 }
-
+.tawk-min-container {
+  display: none !important;
+}
+.ftLinkler {
+  display: none !important;
+}
+.mobilBasvuru {
+  display: none !important;
+}
