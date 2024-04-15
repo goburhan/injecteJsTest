@@ -5,8 +5,8 @@ window.Tawk_API.onLoad = function () {
     window.Tawk_API.hideWidget();
 };
 
-const altBasvuru = document.getElementById('ApplicationBottom');
-altBasvuru.style.display = 'none'; true;
+// const altBasvuru = document.getElementById('ApplicationBottom');
+// altBasvuru.style.display = 'none'; true;
 
 const basvuruButtonu = document.getElementsByClassName('mobilBasvuru');
 for (let i = 0; i < basvuruButtonu.length; i++) {
@@ -14,6 +14,6 @@ for (let i = 0; i < basvuruButtonu.length; i++) {
 }
 
 const basvuruYapButtonu = document.getElementById('ApplicationBottom');
-if(element){
-    basvuruYapButtonu.style.display="none";
+if (basvuruYapButtonu) {
+    basvuruYapButtonu.remove()
 }
