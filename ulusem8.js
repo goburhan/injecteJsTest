@@ -18,6 +18,6 @@ if (basvuruYapButtonu) {
     basvuruYapButtonu.remove()
 }
 const footerElement = document.querySelector('footer');
-if (footerElement) {
+if(footerElement) {
     footerElement.remove();
 }
