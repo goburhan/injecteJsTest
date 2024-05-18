@@ -41,3 +41,16 @@ basvuruSorgula.forEach(item => {
         item.remove();
     }
 });
+
+
+const bunuSilcez = document.getElementById("cpContent_ltrContent");
+
+if (bunuSilcez) {
+  for (let i = 0; i < 6; i++) {
+    if (bunuSilcez.lastElementChild) {
+        bunuSilcez.removeChild(bunuSilcez.lastElementChild);
+    }
+  }
+} else {
+  console.log('Element not found');
+}
