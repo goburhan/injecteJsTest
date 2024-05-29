@@ -10,6 +10,7 @@ const basvuruButtonu = document.getElementsByClassName('mobilBasvuru');
 for (let i = 0; i < basvuruButtonu.length; i++) {
     basvuruButtonu[i].style.display = 'none';
 }
+
 const egitimSureciBolumu = document.getElementsByClassName('hidenonapp');
 for (let i = 0; i < egitimSureciBolumu.length; i++) {
     egitimSureciBolumu[i].style.display = 'none';
@@ -19,6 +20,7 @@ const basvuruYapButtonu = document.getElementById('ApplicationBottom');
 if (basvuruYapButtonu) {
     basvuruYapButtonu.remove()
 }
+
 const footerElement = document.querySelector('footer');
 if (footerElement) {
     footerElement.remove();
