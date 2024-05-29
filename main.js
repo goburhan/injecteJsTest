@@ -10,3 +10,7 @@ const footerElement = document.querySelector('footer');
 if (footerElement) {
     footerElement.remove();
 }
+var navbardakiEgitimPortalButtonu = document.querySelector('.nav .btn-primary');
+if (navbardakiEgitimPortalButtonu) {
+    navbardakiEgitimPortalButtonu.remove();
+}
